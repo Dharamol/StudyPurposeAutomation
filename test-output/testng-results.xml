@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-26T00:16:30 IST" name="Default suite" finished-at="2026-02-26T00:16:39 IST" duration-ms="9094">
+    <groups>
+    </groups>
+    <test started-at="2026-02-26T00:16:30 IST" name="Default test" finished-at="2026-02-26T00:16:39 IST" duration-ms="9094">
+      <class name="com.test.VerifyingTheBaseTestClass">
+        <test-method is-config="true" signature="driverManager()[pri:0, instance:com.test.VerifyingTheBaseTestClass@21e360a]" started-at="2026-02-26T00:16:30 IST" name="driverManager" finished-at="2026-02-26T00:16:34 IST" duration-ms="4494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverManager -->
+        <test-method signature="enableNoRadioButton()[pri:0, instance:com.test.VerifyingTheBaseTestClass@21e360a]" started-at="2026-02-26T00:16:34 IST" name="enableNoRadioButton" finished-at="2026-02-26T00:16:39 IST" duration-ms="4315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enableNoRadioButton -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.test.VerifyingTheBaseTestClass@21e360a]" started-at="2026-02-26T00:16:39 IST" name="quitBrowser" finished-at="2026-02-26T00:16:39 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.test.VerifyingTheBaseTestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

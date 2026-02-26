@@ -30,6 +30,12 @@
     <artifactId>poi</artifactId>
     <version>5.2.3</version>
 </dependency>
+<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>6.3.2</version>
+</dependency>
 
 <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
 <dependency>
@@ -43,7 +49,12 @@
             <artifactId>testng</artifactId>
             <version>7.7.0</version>
         </dependency>
-        
+
+  	<dependency>
+  		<groupId>SampleAutomation</groupId>
+  		<artifactId>SampleAutomation</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
   </dependencies>
   
       <build>

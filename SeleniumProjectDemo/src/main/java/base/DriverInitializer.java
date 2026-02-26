@@ -7,7 +7,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 public class DriverInitializer {
@@ -22,9 +23,9 @@ public class DriverInitializer {
 	}
 	
 	
-	 @BeforeClass
-	 @Parameters(("Browser"))
-	 public WebDriver browserSelection( String Browser)
+	  @BeforeClass
+	 @Parameters(("browser"))
+	 public WebDriver browserSelection(@Optional("chrome") String Browser)
 	 {
 		 switch(Browser)
 		 {
