@@ -34,7 +34,7 @@ public class VerifyingTheBaseTest extends BaseTestUtil{
 	{
 		FrontPageDemoqa val= new FrontPageDemoqa(driver);	
 			val.clickOnElements();
-			Thread.sleep(2000);
+			Thread.sleep(3000);
 			ElementsPage element = new ElementsPage(driver);
 			element.textBoxClick();
 			Thread.sleep(2000);
