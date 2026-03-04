@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.VerifyingTheBaseTestClass">
+      <class name="com.test.VerifyingTheBaseTest">
         <methods>
+          <include name="test1"/>
           <include name="driverManager"/>
           <include name="quitBrowser"/>
-          <include name="enableNoRadioButton"/>
         </methods>
-      </class> <!-- com.test.VerifyingTheBaseTestClass -->
+      </class> <!-- com.test.VerifyingTheBaseTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

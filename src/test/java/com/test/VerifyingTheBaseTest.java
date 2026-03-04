@@ -15,22 +15,20 @@ import com.pages.checkBoxPage;
 public class VerifyingTheBaseTest extends BaseTestUtil{
 	
 	
-	@Test
-	public void test1() throws InterruptedException
-	{
-		System.out.println("dhara");
-		driver.get("www.amazon.in");
-		Thread.sleep(1000);
-		//quitBrowser();
-		
-	}
-	@Test
-	public void sauceLogin()
-	{
-		LoginPageSauceDemo logo = new LoginPageSauceDemo(driver);
-		logo.login("dhara","sandy");
-		
-	}
+	/*
+	 * @Test public void test1() throws InterruptedException {
+	 * System.out.println("dhara"); //driver.get("www.amazon.in");
+	 * Thread.sleep(1000); //quitBrowser();
+	 * 
+	 * }
+	 */
+
+	/*
+	 * @Test public void sauceLogin() { //LoginPageSauceDemo logo = new
+	 * LoginPageSauceDemo(driver); //logo.login("dhara","sandy");
+	 * 
+	 * }
+	 */
 	@Test
 	public void element_TextBox1() throws InterruptedException
 	{
